@@ -5,6 +5,7 @@ background-image: url("/images/poe-portrait.png");
 background-color: #f5f1da;
 font-color: #571605;
 font-family: Garamond, serif;
+border: 2px dotted #8a1703;
 }
 
 table, th, td {
