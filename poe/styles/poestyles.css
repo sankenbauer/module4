@@ -1,6 +1,10 @@
 body {
-max-width: 60em;
-margin: 0 auto 0 auto;
+max-width: 80%;
+margin: 50 auto 0 auto;
+background-image: url("/images/poe-portrait.png");
+background-color: #f5f1da;
+font-color: #571605;
+font-family: Garamond, serif;
 }
 
 table, th, td {
