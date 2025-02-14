@@ -1,13 +1,14 @@
 body {
 max-width: 70%;
 margin: 50px auto 0 auto;
-background: #f5f1da; url("../images/poe-portrait.png") fixed center top;
+background: url("../images/poe-portrait.png") fixed center top #f5f1da;
 color: #571605;
 font-family: Garamond, serif;
 border: 2px dotted #8a1703;
 }
 
 table, th, td {
+background: #ffffff;
 border-collapse: collapse;
 border: 1px solid #000;
 padding: 1em;
