@@ -52,11 +52,11 @@ h1, h2 {
 }
 
 h1 {
-	font-size: em6;
+	font-size: 6em;
 	background-image: linear-gradient(#d0cc9b, #f7f3ea);
 }
 
 h2 {
-	font-size: em5;
+	font-size: 5em;
 }
 
