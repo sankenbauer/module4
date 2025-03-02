@@ -2,7 +2,7 @@ body {
 	max-width: 75%;
 	margin: 2em auto;
 	background: #f7f3ea url("../images/eye2.png") no-repeat right top fixed;
-	background-size: 100px;
+	background-size: 100px; <--! I got tired of committing changes and re-deploying, so I was afraid to try including this in the shorthand property. -->
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
 	color: #111111;
@@ -13,7 +13,7 @@ p {
 }
 
 caption {
-	display: none;
+	display: none; <!-- Was this the appropriate option for getting rid of the text that didn't provide additional information?  Would a screenreader still read this aloud despite it visually being hidden? -->
 }
 
 a {
@@ -54,7 +54,7 @@ h1, h2 {
 
 h1 {
 	font-size: 2em;
-	background-image: linear-gradient(#d0cc9b, #f7f3ea);
+	background-image: linear-gradient(#d0cc9b, #f7f3ea); <--! I wasn't sure you'd count this as a background image for the requirements, hence the random eyeball I also included. -->
 }
 
 h2 {
